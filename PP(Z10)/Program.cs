@@ -12,28 +12,28 @@ namespace PP_Z10_
         static void info(DirectoryInfo directory, FileInfo K1_file1, FileInfo K1_file2, FileInfo K2_file1)
         {
             Console.WriteLine("4.(8.) Директория '{0}'", directory.Name);
-            Console.WriteLine($"       Полный путь к файлу/каталогу: {directory.FullName}\n" +
-                                $"       Имя файла/каталога: {directory.Name}\n" +
+            Console.WriteLine($"       Полный путь к файлу: {directory.FullName}\n" +
+                                $"       Имя файла: {directory.Name}\n" +
                                 $"       Корневой каталог: {directory.Root}\n" +
-                                $"       Время создания файла/каталога: {directory.CreationTime}\n" +
+                                $"       Время создания файла: {directory.CreationTime}\n" +
                                 $"       Ассоциативный атрибут: {directory.Attributes}" +"\n");
             Console.WriteLine("       Файл 't1.txt'");
-            Console.WriteLine($"       Полный путь к файлу/каталогу: {K1_file1.FullName}\n" +
-                                $"       Имя файла/каталога: {K1_file1.Name}\n" +
+            Console.WriteLine($"       Полный путь к файлу: {K1_file1.FullName}\n" +
+                                $"       Имя файла: {K1_file1.Name}\n" +
                                 $"       Расширение файла:{K1_file1.Extension}\n" +
-                                $"       Время создания файла/каталога: {K1_file1.CreationTime}\n" +
+                                $"       Время создания файла: {K1_file1.CreationTime}\n" +
                                 $"       Ассоциативный атрибут: {K1_file1.Attributes}"+ "\n");
             Console.WriteLine("       Файл 't2.txt'");
-            Console.WriteLine($"       Полный путь к файлу/каталогу: {K1_file2.FullName}\n" +
-                                $"       Имя файла/каталога: {K1_file2.Name}\n" +
+            Console.WriteLine($"       Полный путь к файлу: {K1_file2.FullName}\n" +
+                                $"       Имя файла: {K1_file2.Name}\n" +
                                 $"       Расширение файла:{K1_file2.Extension}\n" +
-                                $"       Время создания файла/каталога: {K1_file2.CreationTime}\n" +
+                                $"       Время создания файла: {K1_file2.CreationTime}\n" +
                                 $"       Ассоциативный атрибут: {K1_file2.Attributes}"+"\n");
             Console.WriteLine("       Файл 't3.txt'");
-            Console.WriteLine($"       Полный путь к файлу/каталогу: {K2_file1.FullName}\n" +
-                                $"       Имя файла/каталога: {K2_file1.Name}\n" +
+            Console.WriteLine($"       Полный путь к файлу: {K2_file1.FullName}\n" +
+                                $"       Имя файла: {K2_file1.Name}\n" +
                                 $"       Расширение файла:{K2_file1.Extension}\n" +
-                                $"       Время создания файла/каталога: {K2_file1.CreationTime}\n" +
+                                $"       Время создания файла: {K2_file1.CreationTime}\n" +
                                 $"       Ассоциативный атрибут: {K2_file1.Attributes}"+"\n");
         }
         static void Main(string[] args)
